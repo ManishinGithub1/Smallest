@@ -1,0 +1,10 @@
+def smallest_num(numbers):
+    smallest = numbers[0]
+    for num in numbers:
+        if num < smallest:
+            smallest = num
+    return smallest
+
+list1= [5,7,9,14,10,20,4]
+smallest_num = smallest_num(my_numbers)
+print("The smallest number is:", smallest_num)
